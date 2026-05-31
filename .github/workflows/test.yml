@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        module: [gqldoc]
+        module: [gqldoc, gqlhasura]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
