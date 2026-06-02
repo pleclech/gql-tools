@@ -6,4 +6,7 @@
 .vscode/
 go.work
 go.work.sum
-.specstory/**
+.specstory
+!gqldoc
+!gqlexpr
+!gqlhasura
